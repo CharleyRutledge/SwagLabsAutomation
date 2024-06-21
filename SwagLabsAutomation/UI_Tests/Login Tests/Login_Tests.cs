@@ -22,6 +22,5 @@ namespace SwagLabsAutomation.UI_Tests
             new Login_User_Data(_driver)
                 .Login_Standard_User();
         }
-
     }
 }
