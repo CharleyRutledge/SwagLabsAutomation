@@ -16,7 +16,6 @@ namespace SwagLabsAutomation.Base
         public void Click(By locator)
         {
             Driver.FindElement(locator).Click();
-
         }
 
         /// <summary>
@@ -27,7 +26,6 @@ namespace SwagLabsAutomation.Base
         public void TypeText(By locator, string text)
         {
             Driver.FindElement(locator).SendKeys(text);
-
         }
 
         /// <summary>
